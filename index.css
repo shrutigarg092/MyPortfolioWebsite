@@ -1,0 +1,314 @@
+body {
+  background-color: rgb(5, 17, 34) !important;
+  color: white !important;
+  font-family: "Comfortaa", cursive !important;
+}
+.navbar {
+  background-color: black;
+}
+.nav-link {
+  color: white;
+  margin: 4px;
+}
+
+.container {
+  margin: 0px !important;
+  padding: 0px !important;
+  max-width: 100% !important;
+}
+.row {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.col-1 {
+  padding-top: 50px;
+  border-left: 6px solid green;
+}
+.flex-column {
+  position: fixed !important;
+}
+.flex-column:after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 1000px;
+  margin: 0px auto;
+  margin-left: 35px !important;
+  background-color: rgb(168, 178, 209);
+}
+.fa {
+  padding: 20px;
+  font-size: 35px !important;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: black;
+  text-decoration: none;
+}
+.fa-twitter:hover {
+  color: rgb(29, 155, 240);
+}
+.fa-linkedin:hover {
+  color: #0a66c2;
+}
+
+.header-section {
+  text-align: center;
+  padding: 90px;
+}
+.header-sub {
+  justify-content: center !important;
+  margin-left: 100px !important;
+}
+h5 {
+  font-size: 35px !important;
+  text-align: justify;
+  margin-left: 10px;
+  color: yellow;
+}
+.heading {
+  font-size: 6em;
+  font-family: "Sacramento", cursive !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {
+    color: white;
+  }
+  14% {
+    color: violet;
+  }
+  28% {
+    color: indigo;
+  }
+  42% {
+    color: blue;
+  }
+  56% {
+    color: green;
+  }
+  70% {
+    color: yellow;
+  }
+  84% {
+    color: orange;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.about-me {
+  padding: 25px;
+}
+#about {
+  color: rgb(5, 17, 34);
+}
+h1:hover {
+  color: rgb(210, 211, 240) !important;
+}
+.about-me-desc {
+  max-width: 100%;
+  font-size: 21px;
+  padding-top: 20px;
+  text-align: justify;
+}
+.portfolio {
+  border: 3px solid yellow;
+  margin: 9% auto;
+  border-radius: 10%;
+  justify-content: center;
+  max-width: 257px !important;
+  max-height: 200px !important;
+}
+.col-7 {
+  padding: 20px;
+  text-align: left;
+  margin-left: 30px;
+}
+.portfolio-pic {
+  margin: -24% -18%;
+  max-width: 250px;
+  max-height: 280px;
+  border-radius: 10%;
+}
+.portfolio:hover {
+  opacity: 0.9;
+}
+.row-1,
+.row-3 {
+  background: linear-gradient(to right, #01000c, rgb(5, 17, 34), #121220);
+}
+.row-2,
+.row-4 {
+  background: linear-gradient(to right, #ee6205, #e71102);
+}
+.card {
+  background-color: black !important;
+  margin: auto;
+}
+
+.post-it:hover {
+  opacity: 0.8;
+}
+.resume-button,
+.mail-button {
+  left: calc(50% - 4em);
+  top: calc(50% - 2em);
+  height: 3em;
+  width: 8em;
+
+  background: black;
+  color: white !important;
+  transform-origin: 50% 4em;
+  animation: wiggle 1.5s linear infinite;
+}
+.resume-link {
+  color: blanchedalmond !important;
+}
+
+@-webkit-keyframes wiggle {
+  0% {
+    -webkit-transform: rotateZ(0);
+    transform: rotateZ(0);
+  }
+  10% {
+    -webkit-transform: rotateZ(-15deg);
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    -webkit-transition: rotateZ(10deg);
+    transition: rotateZ(10deg);
+  }
+  25% {
+    -webkit-transition: rotateZ(-10deg);
+    transition: rotateZ(-10deg);
+  }
+  30% {
+    -webkit-transition: rotateZ(6deg);
+    transition: rotateZ(6deg);
+  }
+  35% {
+    -webkit-transform: rotateZ(-4deg);
+    transform: rotateZ(-4deg);
+  }
+  40% {
+    transform: rotateZ(7deg);
+  }
+  50% {
+    transform: rotateZ(-6deg);
+  }
+  60% {
+    transform: rotateZ(10deg);
+  }
+  70% {
+    transform: rotateZ(-14deg);
+  }
+  80% {
+    transform: rotateZ(3deg);
+  }
+  90% {
+    transform: rotateZ(-7deg);
+  }
+  100% {
+    -webkit-transition: rotateZ(0);
+    transition: rotateZ(0);
+  }
+}
+.contact-me {
+  padding: 50px;
+  justify-content: center;
+  text-align: justify;
+}
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: yellow;
+}
+.contact-desc {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 21px;
+}
+.mail-me {
+  margin: 20px;
+  background-color: black !important;
+  max-width: 150px !important;
+  max-height: 100px !important;
+}
+.mail-buttton {
+  text-align: center !important;
+  margin-left: 0% !important;
+}
+.mail-link {
+  padding: 30px !important;
+}
+.contact-line {
+  width: 70%;
+  margin-top: -2px;
+  margin-left: 0px;
+}
+
+@media only screen and (max-width: 900px) {
+  .fa {
+    padding: 10px;
+    font-size: 20px !important;
+    width: 20px;
+  }
+  .flex-column:after {
+    margin-left: 20px !important;
+  }
+  .contact-header {
+    font-size: 35px !important;
+  }
+  .about-me{
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .row{
+    margin-right: -25px !important;
+  }
+  .header-section {
+    padding: 78px;
+    padding-left: 20px !important;
+  }
+  .heading{
+    font-size: 70px !important;
+  }
+  h5{
+    font-size: 45px !important;
+  }
+  .contact-header {
+    font-size: 25px !important;
+  }
+  .about-me{
+    justify-content: center;
+  }
+  #about {
+    font-size: 35px;
+  }
+  .col-7{
+    max-width: 80% !important;
+  }
+  .col-1{
+    display: none;
+  }
+  .col-3 {
+    position: inherit !important;
+    margin-left: 55px;
+  }
+}
