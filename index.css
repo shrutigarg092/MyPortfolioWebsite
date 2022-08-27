@@ -113,7 +113,7 @@ h5 {
   padding: 25px;
 }
 #about {
-  color: rgb(5, 17, 34);
+  color: black;
 }
 h1:hover {
   color: rgb(210, 211, 240) !important;
@@ -241,6 +241,7 @@ h1:hover {
   padding-left: 20%;
   padding-right: 20%;
   font-size: 21px;
+  color: black;
 }
 .mail-me {
   margin: 20px;
