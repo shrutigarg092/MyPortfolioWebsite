@@ -70,7 +70,7 @@ h5 {
   font-size: 35px !important;
   text-align: justify;
   margin-left: 10px;
-  color: yellow;
+  color: black;
 }
 .heading {
   font-size: 6em;
@@ -125,7 +125,7 @@ h1:hover {
   text-align: justify;
 }
 .portfolio {
-  border: 3px solid yellow;
+  border: 3px solid #ef9273;
   margin: 9% auto;
   border-radius: 10%;
   justify-content: center;
