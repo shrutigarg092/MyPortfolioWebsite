@@ -16,7 +16,7 @@
 #skills{
     margin-top: 20px;
     text-align:left;
-    color: #ef9273;
+    color: black;
     margin-left: 19%;
 }
 
@@ -27,7 +27,7 @@ h2{
     color: black;
 }
 h2:hover{
-    color: rgb(174, 174, 184);
+    color: #ef9273;
 }
 
 hr{
@@ -104,7 +104,7 @@ h4 {
     margin-left: 19%;
 }
 .resume-button:hover{
-    background-color: rgb(4, 11, 24);
+    background-color: black;
 }
 .resume-line{
     width: 90%;
