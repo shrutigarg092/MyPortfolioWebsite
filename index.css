@@ -148,11 +148,11 @@ h1:hover {
 }
 .row-1,
 .row-3 {
-  background: linear-gradient(to right, #01000c, rgb(5, 17, 34), #121220);
+  background-color: #fef9f8 ;
 }
 .row-2,
 .row-4 {
-  background: linear-gradient(to right, #ee6205, #e71102);
+  background-color:#fef9f8 ;
 }
 .card {
   background-color: black !important;
@@ -169,7 +169,7 @@ h1:hover {
   height: 3em;
   width: 8em;
 
-  background: black;
+  background-color:  #ef9273;
   color: white !important;
   transform-origin: 50% 4em;
   animation: wiggle 1.5s linear infinite;
@@ -235,7 +235,7 @@ h1:hover {
   text-align: center;
   margin-bottom: 20px;
   font-size: 50px;
-  color: yellow;
+  color: black;
 }
 .contact-desc {
   padding-left: 20%;
@@ -244,7 +244,7 @@ h1:hover {
 }
 .mail-me {
   margin: 20px;
-  background-color: black !important;
+  background-color: #ef9273 !important;
   max-width: 150px !important;
   max-height: 100px !important;
 }
