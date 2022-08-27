@@ -116,13 +116,14 @@ h5 {
   color: black;
 }
 h1:hover {
-  color: rgb(210, 211, 240) !important;
+  color: #ef9273 !important;
 }
 .about-me-desc {
   max-width: 100%;
   font-size: 21px;
   padding-top: 20px;
   text-align: justify;
+  color: black !important;
 }
 .portfolio {
   border: 3px solid #ef9273;
@@ -175,7 +176,7 @@ h1:hover {
   animation: wiggle 1.5s linear infinite;
 }
 .resume-link {
-  color: blanchedalmond !important;
+  color: white !important;
 }
 
 @-webkit-keyframes wiggle {
