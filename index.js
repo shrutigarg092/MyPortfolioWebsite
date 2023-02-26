@@ -14,9 +14,31 @@ let year = date.getFullYear();
   }
   
    $(".dark").on("click", function(){
-        $("body").css("background-color", "black");
-        $("body").css("color", "white");
+        $(".dark").on("click", function(){
+        $(".col-1").css("background-color", "black");
+        $(".row-2").css("background-color", "black");
+        $(".row").css("background-color", "black");
+        $("h2").css("color", "white");
+        $("h1").css("color", "white !important");
+        $("p").css("color", "white !important");
+        $("h5").css("color", "white");
+        $(".about-me-desc").css("color", "white");
+        $("#about").css("color", "white");
+        $("#skills").css("color", "white");
+    });
 
+    $(".light").on("click", function(){
+        $(".col-1").css("background-color", "white");
+        $(".row-2").css("background-color", "white");
+        $(".row").css("background-color", "white");
+        $("h2").css("color", "black");
+        $("h1").css("color", "black !important");
+        $("p").css("color", "black !important");
+        $("h5").css("color", "black");
+        $(".about-me-desc").css("color", "black");
+        $("#about").css("color", "black");
+        $("#skills").css("color", "black");
+    });
     });
 });
 
