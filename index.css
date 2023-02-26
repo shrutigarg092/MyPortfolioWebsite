@@ -73,14 +73,9 @@ h5 {
   color: black;
 }
 .heading {
-  font-size: 6em;
-  font-family: "Sacramento", cursive !important;
+  font-size: 5em;
   letter-spacing: 2px;
-  text-transform: uppercase;
-  color: white;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  color: black;
 }
 @keyframes example {
   0% {
