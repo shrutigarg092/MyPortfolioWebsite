@@ -4,8 +4,8 @@ $( document ).ready(function(){
 let day = date.getDate();
 let month = date.getMonth();
 let year = date.getFullYear();
-  if(month>=2){
-    if(day==1 && month ==2)
+  if(month>=1){
+    if(day==1 && month ==1)
     age.innerText=year-2000;
     else
     age.innerText=year-1999;
