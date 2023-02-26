@@ -121,7 +121,7 @@ h1:hover {
   font-size: 21px;
   padding-top: 20px;
   text-align: justify;
-  color: black !important;
+  color: black;
 }
 .portfolio {
   border: 3px solid #ef9273;
