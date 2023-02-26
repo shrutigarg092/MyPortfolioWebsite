@@ -32,6 +32,7 @@ let year = date.getFullYear();
 
     $(".light").on("click", function(){
         $(".row-1").css("background-color", "white");
+        $(".col-1").css("background-color", "black");
         $(".row-2").css("background-color", "white");
         $(".row").css("background-color", "white");
         $("h2").css("color", "black");
@@ -41,6 +42,7 @@ let year = date.getFullYear();
         $(".about-me-desc").css("color", "black");
         $("#about").css("color", "black");
         $("#skills").css("color", "black");
+      
     });
     });
 });
