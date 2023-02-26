@@ -12,5 +12,11 @@ let year = date.getFullYear();
   }else{
   age.innerText=year-2000;
   }
+  
+   $(".dark").on("click", function(){
+        $("body").css("background-color", "black");
+        $("body").css("color", "white");
+
+    });
 });
 
